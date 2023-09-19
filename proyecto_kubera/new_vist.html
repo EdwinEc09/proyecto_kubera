@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="js/modal.js"></script>
+    <script src="src/main.js"></script>
+    <title>Modal Example</title>
+</head>
+
+<body>
+    <button id="openModalButton">Abrir Modal</button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h2>Descripción del Modal</h2>
+            <p>Esta es la descripción del modal.</p>
+            <form id="modalForm">
+                <div class="colum">
+                    <label>
+                        <input type="radio" name="respuesta" value="opcion1"> Opción 1
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="respuesta" value="opcion2"> Opción 2
+                    </label>
+                </div>
+                <div class="colum">
+
+                    <label>
+                        <input type="radio" name="respuesta" value="opcion3"> Opción 3
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="respuesta" value="opcion4"> Opción 4
+                    </label>
+                </div>
+                <button type="button" class="" id="submitModalButton">Responder</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    background-color: rgba(221, 221, 221, 0.7);
+    
+}
+
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+/* Estilo para el botón del modal */
+#submitModalButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+
+#submitModalButton:hover {
+    background-color: #0056b3;
+}
+
+.colum {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10px; /* Espacio entre columnas */
+}
